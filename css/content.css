@@ -474,3 +474,15 @@
     font-size: 15px;
     color: grey;
 }
+#send-menu{
+    height: 100px;
+    width: 350px;
+   background-color:white;
+    position: absolute;
+    bottom: 30px;
+    right: -150px;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}

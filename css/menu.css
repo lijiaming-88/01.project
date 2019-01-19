@@ -25,6 +25,7 @@
     background-image: url(../img/加号.png);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
 }
 
 #video{
@@ -72,4 +73,20 @@
     align-items: center;
     justify-content: center;
     margin: 8px;
+}
+.send01-1{;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    margin: 10px 0  0  10px;
+}
+.send01{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 5px;
+}
+.send01-2{
+    margin: 0 0 15px 0;
 }
