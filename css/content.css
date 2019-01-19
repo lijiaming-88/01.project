@@ -294,7 +294,7 @@
     background-image: url(../img/天津天气.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 175px;
+    height: 170px;
     width: 100%;
 }
 .content-tj-2-1{
@@ -316,9 +316,6 @@
     justify-content: space-between;
     margin: 10px;
 }
-#content-tj-3{
-    /*margin: 10px 0 0 0px;*/
-}
 #content-tj-3-1{
     font-size: 20px;
     font-weight:600;
@@ -328,35 +325,42 @@
     background-image: url(../img/方太.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 230px;
     width: 100%;
 }
 #fiction-3{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 #fiction-3-1{
-    margin: 0 0 0 10px;
-}
+    /*margin: 0 0 0 5px;*/
+  }
 #fiction-3-2{
-    margin: 0 50px 0 10px;
+    /*margin: 0 10px 0 5px;*/
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 13px;
     color: grey;
 }
 #fiction-4{
-    margin: 5px 0 0  13px;
+    /*margin: 5px 0 0  13px;*/
 }
 .god{
     display: flex;
+    justify-content: space-between;
 
+}
+.god2{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 .god1{
     background-repeat: no-repeat;
     background-size:contain;
     height: 100px;
     width: 80px;
-    margin: 10px;
+    margin: 10px 0 10px 10px;
 }
 .god2-1{
     font-weight: bolder;
@@ -382,7 +386,7 @@
     border-radius: 5px;
     height: 30px;
     width: 80px;
-    margin: 45px 0 0 50px;
+    margin: 45px 10px 0 50px;
     text-align: center;
     color: white;
     line-height: 30px;
@@ -401,20 +405,27 @@
 #god0{
     display: flex;
     align-items: center;
-    /*justify-content:space-around;*/
+    justify-content:space-between;
 }
 #god0-1{
     background-image: url(../img/小于号.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 30px;
-    width: 30px;
-    margin: 10px 130px 10px 10px;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
 }
 #god0-2{
     font-size: 20px;
 }
 #god0-3{
     font-size: 15px;
-    margin: 0 0 0 120px;
+    margin: 10px;
+}
+#content-tj-4{
+    background-image: url(../img/头条广告.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
 }

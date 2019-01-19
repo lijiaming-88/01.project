@@ -18,20 +18,22 @@
     background-size: contain;
     background-position:center;
     background-repeat: no-repeat;
-}
+  }
 #navigation-left div{
     align-items: center;
    }
 
 #navigation-menu{
-    height: 706px;
-    width: 414px;
+    height: 100%;
+    width: 100%;
     background-color: white;
     position: absolute;
     top: 30px;
     right: 0px;
-    display: none;
-    border-radius: 10px 10px 0 0 ;
+     border-radius: 10px 10px 0 0 ;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 #select-1{
     background-image: url(../img/关闭.png);
@@ -44,6 +46,7 @@
 #select-2{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 #select-2-1{
@@ -53,7 +56,7 @@
 #select-2-2{
     font-size: 15px;
     color: grey;
-    margin:0 180px 0 0;
+    margin:0 130px 0 0;
 }
 #select-2-3{
     border: red 1px solid;
@@ -74,10 +77,11 @@
     display: flex;
     align-items: center;
     margin: 10px;
+    justify-content: right;
 }
 .select-3-1{
     height: 40px;
-    width: 90px;
+    width: 70px;
     background-color:#E0E0E0;
     border-radius: 5px;
     text-align: center;
@@ -85,7 +89,7 @@
 }
 .select-4-1{
     height: 40px;
-    width: 90px;
+    width: 70px;
     background-color:#E0E0E0;
     border-radius: 5px;
     text-align: center;
@@ -113,7 +117,7 @@
 }
 .select-6-1{
     height: 40px;
-    width: 90px;
+    width: 70px;
     background-color:white;
     border-radius: 5px;
     text-align: center;
