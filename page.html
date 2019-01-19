@@ -84,9 +84,6 @@
                     <div>国风</div>
                     <div>热点</div>
                     <div>视频</div>
-                    <!--<div>直播</div>-->
-                    <!--<div>娱乐</div>-->
-                    <!--<div>问答</div>-->
                 </div>
                 <div id="navigation-right">
                     <div id="navigation-menu" style="display: none">
@@ -270,11 +267,17 @@
     $("#send-menu-1-1").click(function(){
         $("#content").load("content.html");
     });
+    $("#home").click(function(){
+        $("#content").load("content.html");
+    });
     $("#fiction-3-3").click(function(){
         $("#content").load("fiction-1.html");
     });
     $("#send-menu-1-2").click(function(){
         $("#content").load("content-video.html");
+    });
+    $("#player").click(function(){
+            $("#content").load("content-video.html");
 
     })
 

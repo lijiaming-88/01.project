@@ -2,7 +2,7 @@
     flex: 1;
     width: 100%;
     overflow: scroll;
-    -webkit-scrollbar{display:none}
+-webkit-scrollbar{display:none}
 }
 #news1{
     display: flex;
@@ -248,6 +248,7 @@
 #video-1-2{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 #video-1-2-1{
     background-image: url(../img/企业员工默认圆头像.png);
@@ -259,14 +260,14 @@
 }
 #video-1-2-3{
     color:red;
-    margin: 0 100px 0 5px;
-}
+  }
 #video-1-2-4{
     background-image: url(../img/讨论1.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 25px;
     width: 25px;
+    margin: 0 0 0 60px;
 }
 #video-1-2-5{
     font-weight: lighter;
@@ -428,4 +429,48 @@
     background-repeat: no-repeat;
     height: 400px;
     width: 100%;
+}
+#year{
+    display: flex;
+    flex-flow: column;
+    /*align-items: center;*/
+    margin: 10px;
+}
+#year1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#year2{
+    background-image: url(../img/新春.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    /*border: blue 1px solid;*/
+}
+#year3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#year3-1{
+    border: blue 1px solid;
+    border-radius: 10px;
+    height: 25px;
+    width: 40px;
+    line-height: 25px;
+    color: blue;
+    margin: 5px;
+    padding: 0 0 0 8px;
+ }
+#year3-3{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/删除.png);
+    width: 20px;
+    height: 20px;
+}
+#year3-2{
+    font-size: 15px;
+    color: grey;
 }
