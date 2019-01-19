@@ -2,7 +2,7 @@
     flex: 1;
     width: 100%;
     overflow: scroll;
--webkit-scrollbar{display:none}
+
 }
 #news1{
     display: flex;
